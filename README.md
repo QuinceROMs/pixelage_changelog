@@ -29,3 +29,5 @@ Audio quality enhancement:
 - Added LDAC codec support for high-quality Bluetooth audio.
 
 Added touch AIDL to device framework.
+
+overlay: qssi: Removed deprecated config_mobile_tcp_buffers/networkAttributes.
