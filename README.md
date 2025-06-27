@@ -1,5 +1,13 @@
-Project Pixelage device tree changelog
-======================================
+Project Pixelage - device tree changelog
+========================================
+
+2025.06.27
+----------
+- Implemented DSP Volume Synchronizer (DSP can now limit bass when the volume is high to prevent distortion)
+- usb: usb_compositions: 0x05C6 -> 0x22D9 (this commit fixes ADB/USB issues on Windows)
+- sepolicy: qti: LC_ALL=C sorted wakeup nodes. Removed redundant rules
+- Reverted BT power management commits
+- Switched to KernelSU Next (again 😋).
 
 2025.06.18
 ----------
